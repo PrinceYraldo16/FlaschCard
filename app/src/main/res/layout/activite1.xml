@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
+
+
 
     <TextView
         android:id="@+id/flashcard_question"
@@ -13,7 +12,7 @@
         android:background="@drawable/card_background"
 
         android:gravity="center"
-        android:text="Who is the 44th President of the United States?"
+        android:text="Definir PNH"
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="30sp"
@@ -26,7 +25,7 @@
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_question"
         android:gravity="center"
-        android:text="Bill Clinton"
+        android:text="Prison National D'Haiti"
         android:textAlignment="center"
         android:textColor="#034"
         android:textSize="30sp"
@@ -37,7 +36,7 @@
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_answer"
         android:gravity="center"
-        android:text="George H. W. Bush"
+        android:text="Police National D'Haiti"
         android:textAlignment="center"
         android:textColor="#034"
         android:textSize="30sp"
@@ -49,20 +48,21 @@
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_answer1"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text="UDMO"
         android:textAlignment="center"
         android:textColor="#034"
         android:textSize="30sp"
         />
 
-    <Button
-        android:id="@+id/BtnS"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/flashcard_answer2"
-        android:layout_marginTop="108dp"
-        android:background="#E6F45E"
-        android:text="Suivant"
+        android:layout_marginTop="122dp"
+        android:background="#219ebc"
+        android:gravity="center"
+
+        android:text="Terminer"
         android:textSize="45sp"
 
         />
